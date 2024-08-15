@@ -1,10 +1,10 @@
-import { PlusIcon } from "lucide-react"
+import { ArrowDownWideNarrow, PlusIcon } from "lucide-react"
 import React from "react"
 
 const IntroProject = () => {
   return (
     <section className="mx-8 h-96 border border-neutral-800 border-b-0 rounded-2xl text-primary">
-      <div className="m-1 h-[98%] border border-neutral-600 border-b-0 rounded-2xl backdrop-blur-xl bg-gradient-to-b from-white/5 to-transparent">
+      <div className="m-1 h-[98%] border border-neutral-600 border-b-0 rounded-2xl backdrop-blur-xl bg-gradient-to-b from-white/5 to-transparent flex flex-col">
         <div className="p-4 bg-gradient-to-r from-gray-600 via-slate-50 to-gray-600 backdrop-blur-40 rounded-t-xl flex justify-between items-center">
           <div className="flex flex-row gap-3">
             <div className="w-3 h-3 bg-red-400 rounded-full drop-shadow-md"></div>
@@ -27,6 +27,7 @@ const IntroProject = () => {
           </p>
           <p className="text-muted-foreground font-medium">Formerly at Uber</p>
         </div>
+        <ArrowDownWideNarrow className="mt-16 self-center animate-bounce" />
       </div>
     </section>
   )

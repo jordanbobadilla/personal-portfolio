@@ -8,7 +8,7 @@ const NavBar = () => {
         <h2 className="text-xl font-bold">Jordan Bobadilla</h2>
         <h4 className="text-muted-foreground">Software Engineer</h4>
       </div>
-      <div className="border border-neutral-700 rounded-full flex items-center justify-between p-2 backdrop-blur-2 bg-white/10 hover:bg-white/20 cursor-pointer">
+      <div className="border border-neutral-700 rounded-full flex items-center justify-between p-2 backdrop-blur-2 bg-white/5 hover:bg-white/20 cursor-pointer">
         <Link
           href={"/"}
           className="px-6 py-2 mr-1 font-semibold focus:backdrop-blur-2 focus:bg-white/10 focus:rounded-full hover:bg-white/30 hover:rounded-full text-sm"
