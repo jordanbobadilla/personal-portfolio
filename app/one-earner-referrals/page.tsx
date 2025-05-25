@@ -29,7 +29,7 @@ const OneEarnerReferralsPage = () => {
             Key Features
           </h4>
         </div>
-        <ul className=" list- list-inside text-primary mb-6 font-medium text-lg">
+        <ul className="list-inside text-primary mb-6 font-medium text-lg">
           <li>- Referral sharing via native Android features.</li>
           <li>- Country-specific reward offers (e.g., $300 after 60 trips).</li>
           <li>- Progress tracking for referred drivers.</li>
@@ -138,6 +138,21 @@ const OneEarnerReferralsPage = () => {
           initiative meant building technology that directly supported Uber’s
           mission of creating economic opportunities through mobility.
         </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-muted-foreground mb-6">
+          <div>
+            <h3 className="text-3xl font-bold text-primary">+1.2M</h3>
+            <p>Referrals sent globally</p>
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold text-primary">60%</h3>
+            <p>Lower acquisition cost</p>
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold text-primary">+18%</h3>
+            <p>Driver retention boost</p>
+          </div>
+        </div>
       </div>
       <div className="h-[1px] m-8 bg-muted-foreground" />
       <Footer />

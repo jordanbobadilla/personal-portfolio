@@ -8,7 +8,7 @@ import Footer from "../components/footer/page"
 
 const InfoPage = () => {
   return (
-    <section className="p-8 text-primary">
+    <section className="px-8 pt-8 text-primary">
       <NavBar isWork={false} />
       <AboutMe />
       <Portrait imgUrl="/jordan1.JPG" />
