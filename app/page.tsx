@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Footer from "./components/footer/page"
 import NavBar from "./components/navbar/page"
 import IntroProject from "./components/projects/introProject/page"
@@ -8,13 +9,15 @@ export default function Home() {
     <main>
       <NavBar isWork={true} />
       <IntroProject />
-      <Project
-        title="One Earner Referral"
-        subtitle="Uber, '23"
-        description="Invite friends to make money on their own time"
-        imgUrl="/oer3.png"
-        background="bg-gradient-to-r from-red-900 via-red-500 to-red-900"
-      />
+      <Link href={"/one-earner-referrals"}>
+        <Project
+          title="One Earner Referral"
+          subtitle="Uber, '23"
+          description="Invite friends to make money on their own time"
+          imgUrl="/oer3.png"
+          background="bg-gradient-to-r from-red-900 via-red-500 to-red-900"
+        />
+      </Link>
       <Project
         title="Givn"
         subtitle="Pursuit, '21"
