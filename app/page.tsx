@@ -20,6 +20,24 @@ export default function Home() {
       </Link>
       <Link href={"/givn"}>
         <Project
+          title="DomiChat"
+          subtitle="Showcase Proyect, '25"
+          description="Your Dominican AI Assistant"
+          imgUrl="/givn.png"
+          background="bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700"
+        />
+      </Link>
+      <Link href={"/givn"}>
+        <Project
+          title="Elementix"
+          subtitle="Showcase Proyect, '24"
+          description="Run your Agency in One Place."
+          imgUrl="/givn.png"
+          background="bg-gradient-to-r from-green-700 via-green-500 to-green-700"
+        />
+      </Link>
+      <Link href={"/givn"}>
+        <Project
           title="Givn"
           subtitle="Pursuit, '21"
           description="Save the planet one item at a time."
