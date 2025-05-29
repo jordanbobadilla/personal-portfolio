@@ -30,7 +30,7 @@ const Project = ({
         </div>
         <p className="mt-4 font-medium">
           {subtitle}{" "}
-          <span className="italic bg-gradient-to-b from-white via-white to-gray-500 text-transparent bg-clip-text">
+          <span className="italic bg-gradient-to-b from-white via-white to-gray-300 text-transparent bg-clip-text">
             - {description}
           </span>
         </p>

@@ -1,15 +1,14 @@
 import React from "react"
-import NavBar from "../components/navbar/page"
-import AboutMe from "../components/about-me/page"
-import Portrait from "../components/portrait/page"
+import NavBar from "../../components/navbar/page"
+import AboutMe from "../../components/about-me/page"
+import Portrait from "../../components/portrait/page"
 import { SeparatorHorizontal } from "lucide-react"
-import Experience from "../components/experience/page"
-import Footer from "../components/footer/page"
+import Experience from "../../components/experience/page"
+import Footer from "../../components/footer/page"
 
 const InfoPage = () => {
   return (
     <section className="px-8 pt-8 text-primary">
-      <NavBar isWork={false} />
       <AboutMe />
       <div className="space-y-16">
         <div className="grid md:grid-cols-2 gap-6 items-center">

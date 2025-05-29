@@ -1,13 +1,12 @@
 import Link from "next/link"
-import Footer from "./components/footer/page"
-import NavBar from "./components/navbar/page"
-import IntroProject from "./components/projects/introProject/page"
-import Project from "./components/projects/project/page"
+import Footer from "../components/footer/page"
+import NavBar from "../components/navbar/page"
+import IntroProject from "../components/projects/introProject/page"
+import Project from "../components/projects/project/page"
 
 export default function Home() {
   return (
     <main>
-      <NavBar isWork={true} />
       <IntroProject />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start lg:gap-8 px-4">
