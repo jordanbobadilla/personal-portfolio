@@ -69,24 +69,41 @@ const OneEarnerReferralsPage = () => {
           provides real-time updates on the referral status, ensuring
           transparency and engagement.
         </p>
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-1">
+            <Portrait imgUrl="/oer3.png" />
+          </div>
+          <div className="order-2">
+            <p className="my-8 mx-10 font-medium text-lg italic">
+              Screenshot of the Referrals Home Page. You can view your status,
+              your current offer based on your city/country or send an invite.
+            </p>
+          </div>
+        </div>
 
-        <Portrait imgUrl="/oer3.png" />
-        <p className="my-8 mx-10 font-medium text-lg italic">
-          Screenshot of the Referrals Home Page. You can view your status, your
-          current offer based on your city/country or send an invite.
-        </p>
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-2 md:order-1">
+            <p className="my-8 mx-10 font-medium text-lg italic">
+              Screenshot of the referral invitation screen within the Uber
+              Driver app.
+            </p>
+          </div>
+          <div className="order-1 md:order-2">
+            <Portrait imgUrl="/oer2.png" />
+          </div>
+        </div>
 
-        <Portrait imgUrl="/oer2.png" />
-        <p className="my-8 mx-10 font-medium text-lg italic">
-          Screenshot of the referral invitation screen within the Uber Driver
-          app.
-        </p>
-
-        <Portrait imgUrl="/oer1.png" />
-        <p className="my-8 mx-10 font-medium text-lg italic">
-          Progress tracking interface showing the status of referred drivers.
-          Classified between active and past invitations.
-        </p>
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-1">
+            <Portrait imgUrl="/oer1.png" />
+          </div>
+          <div className="order-2">
+            <p className="my-8 mx-10 font-medium text-lg italic">
+              Progress tracking interface showing the status of referred
+              drivers. Classified between active and past invitations.
+            </p>
+          </div>
+        </div>
 
         <div className="h-[1px] m-8 bg-muted-foreground" />
 
@@ -139,7 +156,7 @@ const OneEarnerReferralsPage = () => {
           mission of creating economic opportunities through mobility.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-muted-foreground mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-muted-foreground m-16">
           <div>
             <h3 className="text-3xl font-bold text-primary">+1.2M</h3>
             <p>Referrals sent globally</p>

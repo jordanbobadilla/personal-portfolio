@@ -75,15 +75,27 @@ const GivnPage = () => {
           locations, enhancing user experience.
         </p>
 
-        <Portrait imgUrl="/givn-feed.png" />
-        <p className="text-primary font-medium italic text-lg my-8 mx-10">
-          Screenshot of the main feed displaying available items.
-        </p>
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-1">
+            <Portrait imgUrl="/givn-feed.png" />
+          </div>
+          <div className="order-2">
+            <p className="text-primary font-medium italic text-lg my-8 mx-10">
+              Screenshot of the main feed displaying available items.
+            </p>
+          </div>
+        </div>
 
-        <Portrait imgUrl="/givn-post.png" />
-        <p className="text-primary font-medium text-lg my-8 mx-10">
-          Interface for creating a new post with item details and images.
-        </p>
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-2 md:order-1">
+            <p className="text-primary font-medium italic text-lg my-8 mx-10">
+              Interface for creating a new post with item details and images.
+            </p>
+          </div>
+          <div className="order-1 md:order-2">
+            <Portrait imgUrl="/givn-post.png" />
+          </div>
+        </div>
 
         <div className="h-[1px] m-8 bg-muted-foreground" />
 
@@ -106,7 +118,7 @@ const GivnPage = () => {
           ensures user data and interactions are protected.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-muted-foreground font-medium mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-muted-foreground font-medium m-16">
           <div>
             <h3 className="text-3xl font-bold text-primary">1,200+</h3>
             <p>Items successfully given away</p>

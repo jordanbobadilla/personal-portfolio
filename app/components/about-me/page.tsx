@@ -2,7 +2,7 @@ import React from "react"
 
 const AboutMe = () => {
   return (
-    <section className="mt-32 mx-8 text-primary">
+    <section className="mt-16 mx-8 text-primary">
       <div className="flex items-center gap-2">
         <div className="w-2 h-2 rounded-full bg-white"></div>
         <h4 className="text-muted-foreground uppercase text-[12px] font-semibold">
