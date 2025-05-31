@@ -22,7 +22,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="space-y-4">
-          <Link href={"/givn"}>
+          <Link href={"/domi-chat"}>
             <Project
               title="DomiChat"
               subtitle="Showcase Proyect, '25"
@@ -31,7 +31,7 @@ export default function Home() {
               background="bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700"
             />
           </Link>
-          <Link href={"/givn"}>
+          <Link href={"/elementix"}>
             <Project
               title="Elementix"
               subtitle="Showcase Proyect, '24"
