@@ -6,7 +6,7 @@ import Project from "./components/projects/project/page"
 
 export default function Home() {
   return (
-    <main>
+    <main className="scroll-smooth will-change-auto">
       <IntroProject />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start lg:gap-8 px-4">

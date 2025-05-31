@@ -39,7 +39,11 @@ const Project = ({
           alt="project image"
           width={"300"}
           height={"300"}
-          className="mt-16 w-auto h-min"
+          className="mt-16 w-auto h-min rounded-2xl transition-transform duration-300 ease-in-out will-change-transform"
+          placeholder="blur"
+          blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJod...yIvPjwvc3ZnPg=="
+          loading="eager"
+          priority
         />
       </div>
     </section>
