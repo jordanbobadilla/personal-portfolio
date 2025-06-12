@@ -10,7 +10,7 @@ export default function Home() {
       <IntroProject />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start lg:gap-8 px-4">
-        <div className="lg:mt-32">
+        <div className="lg:mt-16">
           <Link href={"/one-earner-referrals"}>
             <Project
               title="One Earner Referral"
@@ -27,7 +27,7 @@ export default function Home() {
               title="DomiChat"
               subtitle="Showcase Proyect, '25"
               description="Your Dominican AI Assistant"
-              imgUrl="/givn.png"
+              imgUrl="/domichat-chat.png"
               background="bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700"
             />
           </Link>
@@ -36,7 +36,7 @@ export default function Home() {
               title="Elementix"
               subtitle="Showcase Proyect, '24"
               description="Run your Agency in One Place."
-              imgUrl="/givn.png"
+              imgUrl="/elementix-home.png"
               background="bg-gradient-to-r from-green-700 via-green-500 to-green-700"
             />
           </Link>
@@ -45,7 +45,7 @@ export default function Home() {
               title="Givn"
               subtitle="Pursuit, '21"
               description="Save the planet one item at a time."
-              imgUrl="/givn.png"
+              imgUrl="/givn-feed.png"
               background="bg-gradient-to-r from-purple-700 via-purple-500 to-purple-700"
             />
           </Link>
