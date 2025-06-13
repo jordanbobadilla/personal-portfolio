@@ -49,7 +49,7 @@ const InfoPage = () => {
 
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="order-1">
-            <Portrait imgUrl="/pursuit2.JPG" />
+            <Portrait imgUrl="/pursuit2.jpg" />
           </div>
           <div className="order-2">
             <h2 className="my-8 mx-10 font-medium text-lg">The Pursuit Era</h2>
@@ -108,13 +108,13 @@ const InfoPage = () => {
             </p>
           </div>
           <div className="order-1 md:order-2">
-            <Portrait imgUrl="/pursuit3.JPG" />
+            <Portrait imgUrl="/pursuit3.jpg" />
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="order-1">
-            <Portrait imgUrl="/nyc.JPG" />
+            <Portrait imgUrl="/nyc.jpg" />
           </div>
           <div className="order-2">
             <h2 className="my-8 mx-10 font-medium text-lg">
