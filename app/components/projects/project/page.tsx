@@ -22,11 +22,11 @@ const Project = ({
       className={`mx-8 mt-8 h-auto border border-neutral-800 rounded-2xl text-primary`}
     >
       <div
-        className={`m-1 p-8 h-[98%] border border-neutral-600 hover:border-neutral-400 cursor-pointer rounded-2xl backdrop-blur-xl ${background} flex flex-col`}
+        className={`m-1 p-8 h-[98%] border border-neutral-600 hover:border-neutral-400 cursor-pointer rounded-2xl backdrop-blur-xl ${background} flex flex-col group`}
       >
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-2xl">{title}</h2>
-          <ArrowRight />
+          <ArrowRight className="transform transition-transform duration-200 group-hover:translate-x-2" />
         </div>
         <p className="mt-4 font-medium">
           {subtitle}{" "}

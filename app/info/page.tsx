@@ -224,22 +224,77 @@ const InfoPage = () => {
               continue this journey, helping to shape the future of Technology
               like I did at Uber.
             </p>
-            <h2 className="mt-8 mx-10 font-medium text-lg">
-              Thanks for stopping by!
-            </h2>
-            <img
-              src="/signature.png"
-              alt="Jordan Bobadilla's signature"
-              width={"96"}
-              height={"96"}
-              className="ml-6"
-            />
           </div>
           <div className="order-1 md:order-2">
             <Portrait imgUrl="/uber3.JPG" />
           </div>
         </div>
+
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-1">
+            <Portrait imgUrl="/jordan4.jpg" />
+          </div>
+          <div className="order-2">
+            <h2 className="my-8 mx-10 font-medium text-lg">
+              Unexpected Events
+            </h2>
+            <p className="text-muted-foreground mx-10 mt-4">
+              In mid 2024, I faced a sudden shift in the tech industry as
+              artificial intelligence rapidly transformed the landscape. As a
+              Software Engineer, I wasn’t fully prepared for how fast
+              expectations and workflows were evolving—and I felt the impact
+              firsthand.
+            </p>
+            <p className="text-muted-foreground mx-10 mt-4">
+              Instead of seeing it as a setback, I embraced the opportunity to
+              step back and realign. During this time, I took on a role in
+              Compliance and dedicated myself to learning and catching up with
+              the latest technologies, including AI-assisted development,
+              backend modernization, and scalable cloud solutions.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="order-2 md:order-1">
+            <h2 className="my-8 mx-10 font-medium text-lg">
+              The Horatio Phase
+            </h2>
+            <p className="text-muted-foreground mx-10 mt-8">
+              I recently worked as a Compliance Analyst at Hire Horatio,
+              supporting the team at Arkham Intelligence. In this role, I was
+              responsible for ID verification, AML (Anti-Money Laundering), EDD
+              (Enhanced Due Diligence), and proof of address (POA) reviews.
+            </p>
+            <p className="text-muted-foreground mx-10 mt-4">
+              I served as the main bridge between the Compliance and Customer
+              Service departments, ensuring timely resolutions and maintaining
+              the integrity of our onboarding and review processes. This role
+              strengthened my communication, attention to detail, and
+              decision-making skills under pressure.
+            </p>
+            <p className="text-muted-foreground mx-10 mt-4">
+              Additionally, I trained new compliance analysts, helping them
+              quickly understand and apply internal procedures and quality
+              standards. This experience allowed me to mentor others while
+              maintaining high levels of operational consistency.
+            </p>
+          </div>
+          <div className="order-1 md:order-2">
+            <Portrait imgUrl="/horatio.webp" />
+          </div>
+        </div>
       </div>
+      <h2 className="mt-8 mx-10 font-medium text-lg">
+        Thanks for stopping by!
+      </h2>
+      <img
+        src="/signature.png"
+        alt="Jordan Bobadilla's signature"
+        width={"96"}
+        height={"96"}
+        className="ml-6"
+      />
       <div className="h-[1px] m-8 bg-muted-foreground" />
       <Experience />
       <div className="h-[1px] m-8 bg-muted-foreground" />

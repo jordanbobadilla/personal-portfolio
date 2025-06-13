@@ -9,6 +9,15 @@ const Experience = () => {
           Experience
         </h4>
       </div>
+      <h1 className="text-3xl mt-8 mb-4 font-medium">Hire Horatio</h1>
+      <h2 className="text-xl font-medium ">Compliance Analyst</h2>
+      <p className="text-muted-foreground font-medium">11/24 - 04/25</p>
+      <p className="text-muted-foreground mt-4 mb-8">
+        Performed KYC, AML, EDD and POA validations for a blockchain
+        intelligence company called Arkham Intelligence. Served as liaison
+        between Compliance and Customer Service departments. Trained new
+        compliance analysts to ensure consistent quality across processes.
+      </p>
       <h1 className="text-3xl mt-8 mb-4 font-medium">Uber</h1>
       <h2 className="text-xl font-medium ">Software Engineer I</h2>
       <p className="text-muted-foreground font-medium">08/22 - 03/24</p>

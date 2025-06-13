@@ -3,12 +3,32 @@ import NavBar from "../components/navbar/page"
 import Portrait from "../components/portrait/page"
 import Footer from "../components/footer/page"
 import BackButton from "../components/back-button/page"
+import Link from "next/link"
+import { Github, LucideVideo } from "lucide-react"
 
 const GivnPage = () => {
   return (
     <section className="text-primary">
       <header className="p-8 fixed top-0 right-0 left-0 z-10 flex flex-row justify-between items-center backdrop-blur-0 bg-gradient-to-b from-purple-700/80 to-transparent">
         <BackButton />
+        <div className="flex gap-4">
+          <Link
+            className="font-bold w-24 flex flex-row justify-center items-center gap-2 py-2 px-4 text-white text-md backdrop-blur-2 bg-purple-700 rounded-full hover:bg-purple-700/60 transition-colors duration-200 cursor-pointer group"
+            href={"https://givn-d82af.web.app/"}
+            target="blank"
+          >
+            <LucideVideo className="w-4 h-4 transform transition-transform duration-200 group-hover:-translate-x-1" />{" "}
+            Live
+          </Link>
+          <Link
+            className="font-bold w-26 flex flex-row justify-center items-center gap-2 py-2 px-4 text-white text-md backdrop-blur-2 bg-black rounded-full hover:bg-black/40 transition-colors duration-200 cursor-pointer group"
+            href={"https://github.com/jordanbobadilla/Capstone-Givn"}
+            target="blank"
+          >
+            <Github className="w-4 h-4 transform transition-transform duration-200 group-hover:-translate-x-1" />{" "}
+            Github
+          </Link>
+        </div>
       </header>
 
       <div className="mx-8 mt-24">
