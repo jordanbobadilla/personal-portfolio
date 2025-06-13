@@ -10,9 +10,9 @@ const AboutMe = () => {
         </h4>
       </div>
       <h1 className="text-6xl mt-4 font-medium">
-        I'm passionate about solving problems and make{" "}
+        I am passionate about solving problems and make{" "}
         <span className="bg-gradient-to-b from-white via-gray-200 to-gray-700 text-transparent bg-clip-text italic font-semibold">
-          people's lives easier
+          the life of people easier
         </span>
       </h1>
     </section>

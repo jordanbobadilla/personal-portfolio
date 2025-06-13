@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "../components/navbar/page"
-import Portrait from "../components/portrait/page"
+import Portrait from "../components/portrait/Portrait"
 import Footer from "../components/footer/page"
 import BackButton from "../components/back-button/page"
 import Link from "next/link"
@@ -132,10 +132,10 @@ const GivnPage = () => {
           community and promotes sustainable living practices.
         </p>
         <p className="text-primary font-medium text-lg mb-6">
-          The platform's real-time chat feature has streamlined communication
-          between users, making the process of giving and receiving items more
-          efficient and personal. Additionally, the use of secure technologies
-          ensures user data and interactions are protected.
+          The real-time chat feature of the platform has streamlined
+          communication between users, making the process of giving and
+          receiving items more efficient and personal. Additionally, the use of
+          secure technologies ensures user data and interactions are protected.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-muted-foreground font-medium m-16">

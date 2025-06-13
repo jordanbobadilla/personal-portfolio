@@ -1,10 +1,11 @@
 import React from "react"
 import NavBar from "../components/navbar/page"
 import AboutMe from "../components/about-me/page"
-import Portrait from "../components/portrait/page"
+import Portrait from "../components/portrait/Portrait"
 import { SeparatorHorizontal } from "lucide-react"
 import Experience from "../components/experience/page"
 import Footer from "../components/footer/page"
+import Image from "next/image"
 
 const InfoPage = () => {
   return (
@@ -34,7 +35,7 @@ const InfoPage = () => {
               change carreers and dive into Software Engineering.
             </p>
             <p className="text-muted-foreground mx-10 mt-8">
-              I couldn't believe it at first since this was a dream of mine for
+              I could not believe it at first since this was a dream of mine for
               a long time. It was like an opportunity that came from the heaven.
               Uber made a Partnership with Pursuit, a one-year intensive program
               designed specifically to help adults from underserved backgrounds
@@ -124,9 +125,8 @@ const InfoPage = () => {
               journey that was as challenging as it was rewarding. I had the
               privilege of being part of the Earner Success team, a group
               dedicated to improving the experiences of Uber drivers—known as
-              "earners." Our mission was to make their lives easier and their
-              work more profitable, and I was eager to contribute in any way I
-              could.
+              earners. Our mission was to make their lives easier and their work
+              more profitable, and I was eager to contribute in any way I could.
             </p>
             <p className="text-muted-foreground mx-10 mt-8">
               From day one, I knew I was in for an intense learning experience.
@@ -187,7 +187,7 @@ const InfoPage = () => {
               project called One Earner Referrals. This project was particularly
               exciting because it focused on expanding Uber’s driver network
               through a referral system, which had the potential to
-              significantly impact the company's growth. My role involved
+              significantly impact the growth of the company. My role involved
               collaborating with different teams to ensure that the referral
               process was seamless and effective. It was a challenging but
               rewarding experience, and it gave me insight into how large-scale
@@ -288,11 +288,11 @@ const InfoPage = () => {
       <h2 className="mt-8 mx-10 font-medium text-lg">
         Thanks for stopping by!
       </h2>
-      <img
+      <Image
         src="/signature.png"
         alt="Jordan Bobadilla's signature"
-        width={"96"}
-        height={"96"}
+        width={96}
+        height={96}
         className="ml-6"
       />
       <div className="h-[1px] m-8 bg-muted-foreground" />

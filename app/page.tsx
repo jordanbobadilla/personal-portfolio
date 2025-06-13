@@ -2,7 +2,7 @@ import Link from "next/link"
 import Footer from "./components/footer/page"
 import NavBar from "./components/navbar/page"
 import IntroProject from "./components/projects/introProject/page"
-import Project from "./components/projects/project/page"
+import Project from "./components/projects/project/Project"
 
 export default function Home() {
   return (

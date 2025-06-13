@@ -1,5 +1,5 @@
 import React from "react"
-import Portrait from "../components/portrait/page"
+import Portrait from "../components/portrait/Portrait"
 import Footer from "../components/footer/page"
 import BackButton from "../components/back-button/page"
 import { Github, LucideVideo } from "lucide-react"
@@ -27,8 +27,8 @@ const OneEarnerReferralsPage = () => {
           OneEarner Referrals
         </h1>
         <p className="text-muted-foreground text-lg mb-6 italic">
-          OneEarner Referrals is Uber's official driver referral program
-          designed to incentivize existing drivers to invite new drivers to the
+          OneEarner Referrals is official driver referral program designed by
+          Uber to incentivize existing drivers to invite new drivers to the
           platform. The program offers monetary rewards to both the referrer and
           the referee upon the completion of specific milestones.
         </p>
@@ -45,7 +45,7 @@ const OneEarnerReferralsPage = () => {
           <li>- Referral sharing via native Android features.</li>
           <li>- Country-specific reward offers (e.g., $300 after 60 trips).</li>
           <li>- Progress tracking for referred drivers.</li>
-          <li>- Secure integration with Uber's backend systems.</li>
+          <li>- Secure integration with the backend systems.</li>
         </ul>
 
         <div className="flex items-center gap-2 mb-6">

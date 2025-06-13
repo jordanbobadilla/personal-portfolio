@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "../components/navbar/page"
-import Portrait from "../components/portrait/page"
+import Portrait from "../components/portrait/Portrait"
 import Footer from "../components/footer/page"
 import BackButton from "../components/back-button/page"
 import Link from "next/link"
@@ -163,10 +163,10 @@ const DomiChatPage = () => {
         </div>
         <p className="text-primary font-medium text-lg mb-4">
           DomiChat provides accessible AI for the Dominican population by
-          incorporating cultural nuances and voice diversity. It's currently
+          incorporating cultural nuances and voice diversity. It is currently
           used in education, daily assistance, and citizen services. The custom
           RAG system enhances accuracy for local questions, making the app a
-          valuable digital companion in the country’s tech ecosystem.
+          valuable digital companion in the tech ecosystem of the country.
         </p>
         <p className="text-primary font-medium text-lg">
           If widely adopted, DomiChat has the potential to become the first

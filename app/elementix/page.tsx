@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "../components/navbar/page"
-import Portrait from "../components/portrait/page"
+import Portrait from "../components/portrait/Portrait"
 import Footer from "../components/footer/page"
 import BackButton from "../components/back-button/page"
 import Link from "next/link"
