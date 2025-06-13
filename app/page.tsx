@@ -9,7 +9,7 @@ export default function Home() {
     <main className="scroll-smooth will-change-auto">
       <IntroProject />
 
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start lg:gap-8 px-4">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start lg:gap-8 lg:px-4">
         <div className="lg:mt-16">
           <Link href={"/one-earner-referrals"}>
             <Project

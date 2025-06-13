@@ -17,7 +17,7 @@ const NavBar = () => {
   const isWork = pathname === "/"
 
   return (
-    <header className="p-8 fixed top-0 right-0 left-0 z-10 flex flex-row justify-between items-center backdrop-blur-0 bg-gradient-to-b from-background via-background/30 to-transparent text-primary">
+    <header className="p-4 md:p-8 fixed top-0 right-0 left-0 z-10 flex flex-row justify-between items-center backdrop-blur-0 bg-gradient-to-b from-background via-background/30 to-transparent text-primary">
       <div className="flex items-center gap-3">
         <Image
           src={"/jb-logo.jpg"}
@@ -25,7 +25,7 @@ const NavBar = () => {
           width={40}
           height={40}
         />
-        <div>
+        <div className="hidden md:block">
           <h2 className="text-xl font-semibold">Jordan Bobadilla</h2>
           <h4 className="text-muted-foreground text-[12px]">
             Software Engineer

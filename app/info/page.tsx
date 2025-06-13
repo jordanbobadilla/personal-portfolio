@@ -9,7 +9,7 @@ import Image from "next/image"
 
 const InfoPage = () => {
   return (
-    <section className="px-8 text-primary">
+    <section className="md:px-8 text-primary">
       <AboutMe />
       <div className="space-y-16">
         <div className="grid md:grid-cols-2 gap-6 items-center">

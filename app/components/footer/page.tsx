@@ -5,7 +5,7 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer className="px-8 text-primary">
+    <footer className="px-8 pb-8 text-primary">
       <div className="flex flex-row justify-between items-center">
         <Image
           src={"/jb-logo.jpg"}
@@ -44,9 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h2 className="mt-12 font-semibold">
-        © 2024 Jordan Bobadilla. All Rights Reserved.
-      </h2>
+      <h2 className="mt-12 font-semibold">© 2024 Jordan Bobadilla.</h2>
       <p className="text-sm text-muted-foreground mb-8">
         Made with love and 2-liter of Soda (I love soda).
       </p>
