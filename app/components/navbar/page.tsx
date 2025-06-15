@@ -83,7 +83,7 @@ const NavBar = () => {
             <DropdownMenuItem className="hover:bg-gray-500/20 hover:rounded-xl cursor-pointer">
               <Link
                 href={
-                  "https://docs.google.com/document/d/1IcJL3NfXonix7zWfSzQfc-gVNV7lop0B1AfY0pwWrYI/edit?usp=sharing"
+                  "https://docs.google.com/document/d/1Mo3sSY14wvjK_1XvpA2tBPWkDbOsMB-q-bJtuqA7BRk"
                 }
                 target="blank"
                 className="font-bold text-md flex flex-row items-center justify-center gap-8"

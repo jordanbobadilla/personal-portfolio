@@ -34,7 +34,7 @@ const Footer = () => {
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1IcJL3NfXonix7zWfSzQfc-gVNV7lop0B1AfY0pwWrYI/edit?usp=sharing"
+                "https://docs.google.com/document/d/1Mo3sSY14wvjK_1XvpA2tBPWkDbOsMB-q-bJtuqA7BRk"
               }
               target="blank"
               className="font-bold text-md flex flex-row"
